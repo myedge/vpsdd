@@ -1,0 +1,4 @@
+wget -N --no-check-certificate https://raw.githubusercontent.com/myedge/vpsdd/main/network-reinstall-os.sh && \
+chmod +x network-reinstall-os.sh && ./network-reinstall-os.sh
+
+ISO 参考 https://git.beta.gs/
