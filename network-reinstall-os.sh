@@ -47,6 +47,7 @@ echo "  12) RockyLinux 8 (Green Obsidian) 用户名：root 密码：IdcOffer.com
 echo "  13) RockyLinux 9 (Blue Onyx) 用户名：root 密码：IdcOffer.com, 要求2G RAM以上才能使用"
 echo "  14) AlmaLinux 8 （Sky Tiger）用户名：root 密码：IdcOffer.com, 要求2G RAM以上才能使用"
 echo "  15) AlmaLinux 9 （Emerald Puma）用户名：root 密码：IdcOffer.com, 要求2G RAM以上才能使用"
+echo "  16) centos 7用户名：root 密码：IdcOffer.com, 要求2G RAM以上才能使用"
 echo "  自定义安装请使用：bash network-reinstall.sh -dd '您的直连'"
 echo ""
 echo -n "请输入编号: "
@@ -68,5 +69,6 @@ case $N in
   13) bash network-reinstall.sh -r 9 -p IdcOffer.com ;;
   14) bash network-reinstall.sh -a 8 -p IdcOffer.com ;;
   15) bash network-reinstall.sh -a 9 -p IdcOffer.com ;;
+  16) bash network-reinstall.sh -dd 'http://disk.29296819.xyz/d/dd/os/cxthhhhh/CentOS_7.X_x64_Legacy_NetInstallation_Final_v9.8.vhd.gz' ;;
   *) echo "Wrong input!" ;;
 esac
