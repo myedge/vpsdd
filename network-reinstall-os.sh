@@ -49,7 +49,7 @@ echo "  14) AlmaLinux 8 （Sky Tiger）用户名：root 密码：IdcOffer.com, �
 echo "  15) AlmaLinux 9 （Emerald Puma）用户名：root 密码：IdcOffer.com, 要求2G RAM以上才能使用"
 echo "  16) centos 7用户名：root 密码：IdcOffer.com, 要求2G RAM以上才能使用"
 echo "  17) Windows 10 LTSC (默认密码Teddysun.com)"
-
+echo "  18) CentOS 8 (默认密码cxthhhhh.com)"
 echo "  自定义安装请使用：bash network-reinstall.sh -dd '您的直连'"
 echo ""
 echo -n "请输入编号: "
@@ -73,5 +73,6 @@ case $N in
   15) bash network-reinstall.sh -a 9 -p IdcOffer.com ;;
   16) bash network-reinstall.sh -dd 'http://disk.29296819.xyz/d/dd/os/cxthhhhh/CentOS_7.X_x64_Legacy_NetInstallation_Final_v9.8.vhd.gz' ;;
   17) bash network-reinstall.sh -dd 'https://disk.29296819.xyz/d/dd/os/teddysun/zh-cn_windows10_ltsc.xz' ;;
+  18) bash network-reinstall.sh -dd 'http://disk.29296819.xyz/d/dd/os/cxthhhhh/CentOS_8.X_x64_Legacy_NetInstallation_Stable_v6.8.vhd.gz' ;;
   *) echo "Wrong input!" ;;
 esac
